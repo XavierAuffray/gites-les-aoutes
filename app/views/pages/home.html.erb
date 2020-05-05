@@ -1,2 +1,254 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="fullpage">
+  <div id="first-page">
+    <div id="navbar-first-page">
+      <a href="">Accueil</a>
+      <a href="">Alentours</a>
+      <a href="">Agenda</a>
+      <a href="">Nous contacter</a>
+    </div>
+    <img src="logo-gites.svg" alt="!">
+    <div class="contenu-first-page">
+      <p>
+      «  Que la nature est prévoyante ! Elle fait pousser les pommes en Normandie sachant que les indigènes de cette province ne boivent que du cidre. » <br>
+      Henry Monnier - Ecrivain et caricaturiste français
+      </p>
+      <div class="voir-la-video">
+        <a href="#">Voir la video</a>
+      </div>
+      <div class="fleche-next">
+        <a href="#second-page"><img src="fleche-next.svg" alt="!"></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="second-page">
+    <div class="boutton-menu-deroulant">
+      <img src="Fill.svg" alt="!">
+    </div>
+    <div class="menu-deroulant hidden">
+      <a href="">Accueil</a>
+      <a href="">Alentours</a>
+      <a href="">Agenda</a>
+      <a href="">Nous contacter</a>
+    </div>
+    <div class="logo-autels-blanc">
+      <img src="/logo-autels-blanc.svg" alt="!">
+    </div>
+    <div class="contenu-second-page">
+      <p>
+        Les Gîtes des Aoutés, situé à <strong>Hautot-L’Auvray en Normandie</strong>, est composé de <strong>3 gîtes</strong> permettant d’accueillir jusqu’à <strong>23 personnes simultanément.</strong> <br><br>
+        Les gîtes peuvent être <strong>loués ensemble ou séparément.</strong>
+      </p>
+    </div>
+    <div class="logo-maison">
+      <img src="/logo-maison.svg" alt="!">
+    </div>
+    <div class="fleche-next">
+      <a href="#third-page"><img src="fleche-next.svg" alt="!"></a>
+    </div>
+    <div class="fleche-previous">
+      <a href="#first-page"><img src="fleche-next.svg" alt="!"></a>
+    </div>
+  </div>
+
+  <div id="third-page">
+    <div class="fleche-previous">
+      <a href="#second-page"><img src="fleche-next.svg" alt="!"></a>
+    </div>
+    <div class="les-druides maison">
+      <div class="nom-maison">
+        <h3>Les Druides</h3>
+      </div>
+      <div class="capacite-maison">
+        <p>
+          4 personnes
+        </p>
+      </div>
+      <div class="fleche-next-maison">
+        <a href="#page-les-druides"><img src="fleche-next.svg" alt="!"></a>
+      </div>
+    </div>
+    <div class="la-fregate maison">
+      <div class="nom-maison">
+        <h3>La Frégate</h3>
+      </div>
+      <div class="capacite-maison">
+        <p>
+          7 personnes
+        </p>
+      </div>
+      <div class="fleche-next-maison">
+        <a href="#page-la-fregate"><img src="fleche-next.svg" alt="!"></a>
+      </div>
+    </div>
+    <div class="le-logis maison">
+      <div class="nom-maison">
+        <h3>Le Logis</h3>
+      </div>
+      <div class="capacite-maison">
+        <p>
+          11 personnes
+        </p>
+      </div>
+      <div class="fleche-next-maison">
+        <a href="#page-le-logis"><img src="fleche-next.svg" alt="!"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="page-les-druides" class = 'template-page-gite'>
+  <div class="owl-carousel">
+    <div class='image-carousel item'> <img src="https://picsum.photos/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1005/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1011/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1015/367/400" alt="!"> </div>
+  </div>
+  <div class="description-gite">
+    <div class="fleche-previous-gite">
+      <a href="#third-page"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="logo-les-autels">
+      <img src="logo-gites.svg" alt="!">
+    </div>
+    <div class="titre-page-gite">
+      <h1>Les Druides</h1>
+    </div>
+    <div class="capacite-page-gite">
+      <p>4 personnes</p>
+    </div>
+    <div class="element-1">
+      <p><strong>Couchages -</strong> 2 chambres</p>
+    </div>
+    <div class="element-2">
+      <p> Linge pour les lits fourni</p>
+    </div>
+    <div class="element-3"></div>
+    <div class="element-4">
+      <p>Commodités - 2 salles de bains</p>
+    </div>
+    <div class="element-5">
+      <p>Linge de bain fourni</p>
+    </div>
+    <div class="element-6">
+      <p>Mais aussi …</p>
+    </div>
+    <div class="element-7">
+      <p>Machine à laver - Sèche linge - Lave vaisselle - Four - Wifi - Télévision - Chaise haute - Lit pour bébé</p>
+    </div>
+    <div class="boutton-dispo">
+      <a href="#page-les-druides"><img src="bouton_dispo.svg" alt="!"></a>
+    </div>
+  </div>
+</div>
+
+<div id="page-la-fregate" class = 'template-page-gite'>
+  <div class="owl-carousel">
+    <div class='image-carousel item'> <img src="https://picsum.photos/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1005/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1011/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1015/367/400" alt="!"> </div>
+  </div>
+  <div class="description-gite">
+    <div class="fleche-previous-gite">
+      <a href="#third-page"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="logo-les-autels">
+      <img src="logo-gites.svg" alt="!">
+    </div>
+    <div class="titre-page-gite">
+      <h1>La Fregate</h1>
+    </div>
+    <div class="capacite-page-gite">
+      <p>7 personnes</p>
+    </div>
+    <div class="element-1">
+      <p><strong>Couchages -</strong> 4 chambres</p>
+    </div>
+    <div class="element-2">
+      <p> Linge pour les lits fourni</p>
+    </div>
+    <div class="element-3"></div>
+    <div class="element-4">
+      <p>Commodités - 2 salles de bains</p>
+    </div>
+    <div class="element-5">
+      <p>Linge de bain fourni</p>
+    </div>
+    <div class="element-6">
+      <p>Mais aussi …</p>
+    </div>
+    <div class="element-7">
+      <p>Machine à laver - Sèche linge - Lave vaisselle - Four - Wifi - Télévision - Chaise haute - Lit pour bébé</p>
+    </div>
+    <div class="boutton-dispo">
+      <a href="#page-la-fregate"><img src="bouton_dispo.svg" alt="!"></a>
+    </div>
+  </div>
+</div>
+
+<div id="page-le-logis" class = 'template-page-gite'>
+  <div class="owl-carousel">
+    <div class='image-carousel item'> <img src="https://picsum.photos/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1005/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1011/367/400" alt="!"> </div>
+    <div class='image-carousel item'> <img src="https://picsum.photos/id/1015/367/400" alt="!"> </div>
+  </div>
+  <div class="description-gite">
+    <div class="fleche-previous-gite">
+      <a href="#third-page"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="logo-les-autels">
+      <img src="logo-gites.svg" alt="!">
+    </div>
+    <div class="titre-page-gite">
+      <h1>Le Logis</h1>
+    </div>
+    <div class="capacite-page-gite">
+      <p>11 personnes</p>
+    </div>
+    <div class="element-1">
+      <p><strong>Couchages -</strong> 5 chambres</p>
+    </div>
+    <div class="element-2">
+      <p> Linge pour les lits fourni</p>
+    </div>
+    <div class="element-3"></div>
+    <div class="element-4">
+      <p>Commodités - 2 salles de bains</p>
+    </div>
+    <div class="element-5">
+      <p>Linge de bain fourni</p>
+    </div>
+    <div class="element-6">
+      <p>Mais aussi …</p>
+    </div>
+    <div class="element-7">
+      <p>Machine à laver - Sèche linge - Lave vaisselle - Four - Wifi - Télévision - Chaise haute - Lit pour bébé</p>
+    </div>
+    <div class="boutton-dispo">
+      <a href="#page-le-logis"><img src="bouton_dispo.svg" alt="!"></a>
+    </div>
+  </div>
+</div>
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    items:1,
+    autoHeight:true,
+    loop:true,
+    nav:true,
+    navText: ["<img src='previous.svg'>","<img src='next.svg'>"],
+    margin:10
+  });
+</script>
+
+<script>
+  btnMenuDeroulant = document.querySelector('.boutton-menu-deroulant');
+  menuDeroulant = document.querySelector('.menu-deroulant');
+
+  btnMenuDeroulant.addEventListener('mouseover', function(e) {
+    menuDeroulant.classList.toggle('hidden')
+  });
+</script>

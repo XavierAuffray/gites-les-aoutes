@@ -1,1 +1,425 @@
-// Specific CSS for your home-page
+// ________________________________________________________________________________
+// general
+// ________________________________________________________________________________
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
+  overflow: hidden;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+// ________________________________________________________________________________
+// premiere page
+// ________________________________________________________________________________
+
+
+#first-page {
+  position: relative;
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%),
+    url("/background-first-page.svg");
+  background-size: cover;
+  height: 100vh;
+  img {
+    width: 885px;
+    margin-top: 150px;
+  }
+
+  #navbar-first-page {
+    width: 630px;
+    height: 50px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: #FFFFFF;
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 29px;
+      padding: 1%;
+      &:hover {
+        text-decoration: none;
+        border-bottom: #f02340 solid 5px;
+      }
+    }
+  }
+
+  .fleche-next {
+    img {
+      width: 50px;
+    }
+  }
+
+  .contenu-first-page {
+    top: 531px;
+    height: 96px;
+    width: 867px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.8);
+    margin: 0 auto;
+  }
+}
+
+.voir-la-video {
+  margin-top: 110px;
+  a {
+    height: 21px;
+    width: 170px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    border: solid;
+    border-color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    &:hover {
+      text-decoration: none;
+      border: solid red;
+    }
+  }
+}
+
+.fleche-next {
+  img {
+    height: 114px;
+    width: 46px;
+    position: absolute;
+    bottom: 2%;
+    left: 48%;
+  }
+}
+
+.fleche-previous {
+  img {
+    height: 114px;
+    width: 46px;
+    position: absolute;
+    top: 2%;
+    left: 48%;
+    transform: rotate(180deg);
+    z-index: 10;
+  }
+}
+
+
+// ________________________________________________________________________________
+// seconde page
+// ________________________________________________________________________________
+
+
+#second-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #f02340;
+  .boutton-menu-deroulant {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+  }
+  .menu-deroulant {
+    width: 630px;
+    height: 50px;
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: #FFFFFF;
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 29px;
+      padding: 1%;
+      &:hover {
+        text-decoration: none;
+        border-bottom: white solid 5px;
+      }
+    }
+  }
+  .logo-maison {
+    img {
+      position: absolute;
+      height: 526px;
+      width: 650px;
+      top: 20%;
+      left: -27%;
+    }
+  }
+  .contenu-second-page {
+    position: relative;
+    top: 30%;
+    left: 30%;
+    height: 371px;
+    width: 793px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: 53px;
+    text-align: left;
+  }
+  .logo-autels-blanc {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+}
+
+
+// ________________________________________________________________________________
+// troisieme page
+// ________________________________________________________________________________
+
+
+#third-page {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  .fleche-next-maison {
+    img {
+      height: 114px;
+      width: 46px;
+      position: absolute;
+      bottom: 2%;
+      left: 10%;
+      z-index: 10;
+    }
+  }
+  .le-logis {
+    background-image: url(https://odis.homeaway.com/odis/listing/2bce9813-6767-434e-a2e0-525cd8cded0e.f10.jpg);
+    background-size: cover;
+  }
+  .les-druides {
+    background-image: url(https://img.netty.immo/product/maisons/VM2016/maison-individuelle-mirande-vente-1569308040-VM2016_1_l.jpg);
+    background-size: cover;
+  }
+  .la-fregate {
+    background-image: url(http://lassaragne.staticlbi.com/original/images/biens/1/5005910d271ba9013e5f30f8fe82d5c7/b0a4011c8e5426fc23ed81db01bac1c6.jpg);
+    background-size: cover;
+  }
+  .maison {
+    width: 34%;
+    position: relative;
+    .nom-maison {
+      position: absolute;
+      bottom: 25%;
+      height: 79px;
+      width: 100%;
+      text-align: left;
+      padding-left: 10%;
+      h3 {
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 60px;
+        letter-spacing: 0;
+        line-height: 79px;
+        padding-bottom: 10%;
+        padding-left: 20%
+      }
+    }
+    .capacite-maison {
+      position: absolute;
+      bottom: 18%;
+      height: 53px;
+      width: 100%;
+      text-align: left;
+      padding-left: 10%;
+      p {
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 53px;
+        padding-left: 20%
+      }
+    }
+  }
+}
+
+// ________________________________________________________________________________
+// pages des gites
+// ________________________________________________________________________________
+
+
+.template-page-gite {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  .owl-carousel {
+    width: 50%;
+    .image-carousel {
+      height: 100vh;
+    }
+  }
+  .description-gite {
+    position: relative;
+    width: 50%;
+    .fleche-previous-gite {
+      position: absolute;
+      right: 10%;
+      top: 2%;
+      height: 114px;
+      width: 46px;
+      z-index: 50;
+      font-size: 50px;
+      .fa-arrow-up {
+        color: #f02340;
+      }
+    }
+    .logo-les-autels {
+      img {
+        height: 54px;
+        width: 304px;
+      }
+    }
+    .titre-page-gite {
+      position: relative;
+      top: 6%;
+      left: 5%;
+      height: 79px;
+      width: 337px;
+      h1 {
+        color: #FF0041;
+        font-family: Roboto;
+        font-size: 60px;
+        letter-spacing: 0;
+        line-height: 79px;
+      }
+    }
+    .capacite-page-gite {
+      position: absolute;
+      top: 20%;
+      left: 5%;
+      height: 53px;
+      width: 230px;
+      p {
+        color: #424242;
+        font-family: "Roboto Condensed";
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 53px;
+      }
+    }
+    .element-1 {
+      position: absolute;
+      top: 30%;
+      left: 5%;
+      height: 39px;
+      width: 500px;
+      p {
+        color: #424242;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 39px;
+      }
+    }
+    .element-2 {
+      position: absolute;
+      top: 35%;
+      left: 5%;
+      height: 39px;
+      width: 500px;
+      p {
+        color: #A5A5A5;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: italic;
+        letter-spacing: 0;
+        line-height: 26px;
+      }
+    }
+    .element-4 {
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      height: 39px;
+      width: 500px;
+      p {
+        color: #424242;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 39px;
+      }
+    }
+    .element-5 {
+      position: absolute;
+      top: 55%;
+      left: 5%;
+      height: 39px;
+      width: 500px;
+      p {
+        color: #A5A5A5;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: italic;
+        letter-spacing: 0;
+        line-height: 26px;
+      }
+    }
+    .element-6 {
+      position: absolute;
+      top: 70%;
+      left: 5%;
+      height: 39px;
+      width: 500px;
+      p {
+        color: #424242;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+        letter-spacing: 0;
+        line-height: 39px;
+      }
+    }
+    .element-7 {
+      position: absolute;
+      top: 75%;
+      left: 5%;
+      height: 39px;
+      width: 700px;
+      p {
+        color: #424242;
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 32px;
+      }
+    }
+    .boutton-dispo {
+      position: absolute;
+      bottom: 5%;
+      left: 30%;
+    }
+  }
+}
