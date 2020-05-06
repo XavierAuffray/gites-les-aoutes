@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="109px" viewBox="0 0 109 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9F08B939-3E59-48BA-8555-3E75999BCF49</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fregate" transform="translate(-1076.000000, -381.000000)" stroke="#FF0041">
+            <g id="chambres" transform="translate(719.000000, 296.000000)">
+                <g id="1lit" transform="translate(357.000000, 85.000000)">
+                    <rect id="Rectangle-Copy" stroke-width="0.77" x="0.385" y="0.385" width="108.23" height="108.23" rx="3.85"></rect>
+                    <g id="Group-9" transform="translate(38.000000, 35.000000)" stroke-width="1.925">
+                        <path d="M3.85,15.4 L3.85,5.93310398 C3.85,2.67010703 6.38284674,0 9.4798783,0 L25.1709197,0 C28.2671533,0 30.8,2.67010703 30.8,5.93310398 L30.8,15.4" id="Stroke-1"></path>
+                        <path d="M0,39.27 L0,23.2852312 C0,21.0662144 1.84786668,19.25 4.10555564,19.25 L29.7744444,19.25 C32.0321333,19.25 33.88,21.0662144 33.88,23.2852312 L33.88,39.27" id="Stroke-3"></path>
+                        <path d="M11.01,14.63 L11.01,9.12264318 C11.01,7.91716089 12.0949955,6.93 13.4199495,6.93 L20.9192533,6.93 C22.2450045,6.93 23.33,7.91716089 23.33,9.12264318 L23.33,14.63" id="Stroke-5"></path>
+                        <line x1="2.31" y1="31.955" x2="33.88" y2="31.955" id="Stroke-7"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
