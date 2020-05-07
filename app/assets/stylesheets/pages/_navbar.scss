@@ -1,0 +1,64 @@
+
+//______________________________________________________________________________
+// Navabar
+//______________________________________________________________________________
+
+.dropleft {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.btn-secondary {
+  background-color: #f02340;
+  border-color: #f02340;
+  border: none;
+  &:hover {
+    background-color: #f02340;
+    border-color: #f02340;
+  }
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #f02340;
+  border-color: #f02340;
+}
+.dropleft .dropdown-toggle::before {
+  content: none;
+}
+
+.dropdown-menu.show {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1.25vw;
+  width: 37.5vw;
+  background-color: #f02340;
+  border: none;
+  position: absolute;
+  .show {
+    top: -0.3125vw;
+  }
+  a {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-family: Roboto;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 1.8125vw;
+    padding: 1%;
+    font-size: 1.375vw;
+    &:hover {
+      text-decoration: none;
+      font-family: Roboto;
+      letter-spacing: 0;
+      line-height: 1.8125vw;
+      padding: 1%;
+      border-bottom: #FFFFFF solid 0.3125vw;
+    }
+  }
+}
